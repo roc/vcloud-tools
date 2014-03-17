@@ -14,10 +14,10 @@ See [.fog example](examples/.fog-example.fog)
 # Install and run vcloud-walker
 gem install vcloud-walker
 rbenv rehash
-FOG_CREDENTIAL=performance-platform-preview vcloud-walk organization --yaml
+FOG_CREDENTIAL=performance-platform-preview vcloud-walk networks --yaml
 ```
 
-This should give you a readout of your organization profile.
+This should give you a readout of your organisation's current networks.
 
 Vcloud-tools guide
 ============
